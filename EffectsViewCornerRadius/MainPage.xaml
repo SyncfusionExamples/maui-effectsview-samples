@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EffectsViewCornerRadius.MainPage"
+             xmlns:sfEffectsView="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core">
+
+    <Grid>
+        <Border HeightRequest="50" 
+         WidthRequest="200">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20"/>
+            </Border.StrokeShape>
+            <sfEffectsView:SfEffectsView TouchDownEffects="Ripple"
+                                  RippleBackground="Red">
+                <Label Text="Click Me" 
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+            </sfEffectsView:SfEffectsView>
+        </Border>
+    </Grid>
+
+</ContentPage>
