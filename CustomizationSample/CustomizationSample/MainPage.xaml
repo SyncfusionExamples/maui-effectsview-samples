@@ -12,7 +12,7 @@
             </Border.StrokeShape>
             <sfEffectsView:SfEffectsView TouchDownEffects="Ripple"
                                   RippleBackground="Red">
-                <Label Text="Effects View" 
+                <Label Text="Click Me" 
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"/>
             </sfEffectsView:SfEffectsView>
