@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace CustomizationSample
+namespace EffectsViewCornerRadius
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

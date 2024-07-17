@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace CustomizationSample
+namespace EffectsViewCornerRadius
 {
     internal class Program : MauiApplication
     {

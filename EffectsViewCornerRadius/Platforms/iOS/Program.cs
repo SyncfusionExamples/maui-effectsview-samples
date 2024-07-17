@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace CustomizationSample
+namespace EffectsViewCornerRadius
 {
     public class Program
     {

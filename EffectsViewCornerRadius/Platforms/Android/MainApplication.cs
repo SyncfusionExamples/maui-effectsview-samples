@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace CustomizationSample
+namespace EffectsViewCornerRadius
 {
     [Application]
     public class MainApplication : MauiApplication

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="CustomizationSample.AppShell"
+    x:Class="EffectsViewCornerRadius.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:CustomizationSample"
+    xmlns:local="clr-namespace:EffectsViewCornerRadius"
     Shell.FlyoutBehavior="Disabled"
-    Title="CustomizationSample">
+    Title="EffectsViewCornerRadius">
 
     <ShellContent
         Title="Home"

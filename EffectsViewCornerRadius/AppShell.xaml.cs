@@ -1,4 +1,4 @@
-﻿namespace CustomizationSample
+﻿namespace EffectsViewCornerRadius
 {
     public partial class AppShell : Shell
     {
