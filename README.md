@@ -8,38 +8,32 @@ Step 1: Add the NuGet to the project as discussed in the above reference sectio
 
 Step 2: Add the namespace as shown in the following code sample.
 
-{% tabs %}
+**XAML**
 
-{% highlight xaml %}
+```
+    xmlns:effectsView="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"	
+```
 
-    xmlns:effectsView="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
-	
-{% endhighlight %}
+**C#**
 
-{% highlight C# %}
-
+```
     using Syncfusion.Maui.Core;
-
-{% endhighlight %}
-
-{% endtabs %}
+```
 
 Step 3: Set the control to content in `ContentPage`.
 
-{% tabs %}
+**XAML**
 
-{% highlight xaml %}
-
+```
 <ContentPage.Content> 
 	 <effectsView:SfEffectsView /> 
 </ContentPage.Content>  
 
+```
 
-{% endhighlight %}
+**C#**
 
-{% highlight c# %}
-
-using Syncfusion.Maui.Core;
+```
 
 namespace EffectsViewMauiSample   
 {  
@@ -56,6 +50,4 @@ namespace EffectsViewMauiSample
 	}  
 }  
 
-{% endhighlight %}
-
-{% endtabs %}
+```
